@@ -29,7 +29,7 @@ header {
   box-sizing: border-box;
 }
 
-header .logo img {
+header .logo {
   height: 50px;
   border-radius: 10px;
 }
@@ -61,7 +61,12 @@ header nav a:hover {
   padding: 40px 0;
   text-align: center;
 }
-
+.hero .container {
+  display: flex;
+  max-width: 800px;
+  gap: 40px;
+  align-items: center;
+}
 .hero .hero-text {
   margin-bottom: 20px;
 }
@@ -84,11 +89,14 @@ header nav a:hover {
 }
 
 .biography {
+  display: flex;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
   background-color: #ffffff;
   padding: 40px 0;
   text-align: center;
 }
-
 .biography .bio-text h2 {
   color: #49c6e5;
   font-family: "Open Sans", sans-serif;
@@ -164,4 +172,108 @@ header nav a:hover {
   padding: 20px 0;
   border-radius: 0 0 15px 15px;
   box-sizing: border-box;
+}
+
+.projects-link {
+  background-color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.projects-link .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projects-link h2 {
+  color: #49c6e5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.projects-link p {
+  color: #000000;
+}
+
+.projects-link .button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #49c6e5;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.projects-link .button:hover {
+  background-color: #54defe;
+}
+
+.projects {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.projects .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects h1 {
+  color: #49c6e5;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+}
+
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.project-item h2 {
+  color: #49c6e5;
+  font-family: "Open Sans", sans-serif;
+  margin: 20px 0 10px;
+}
+
+.project-item p {
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.project-item .button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #49c6e5;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.project-item .button:hover {
+  background-color: #54defe;
 }

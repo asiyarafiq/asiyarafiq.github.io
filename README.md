@@ -1,16 +1,16 @@
 #  your_name_ - Portfolio Task
 ​
-[My portfolio site](link_to_your_site)
+[https://github.com/asiyarafiq](link_to_your_site)
 ​
 ## Project Requirements
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
+- [* ] At least one profile picture
 - [ ] Biography (at least 100 words)
 - [ ] Functional Contact Form
 - [ ] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+- [ *] Links to external sites, e.g. GitHub and LinkedIn.
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
