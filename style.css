@@ -1,0 +1,167 @@
+body,
+h1,
+h2,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #fffbfa;
+  color: #333333;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #49c6e5;
+  padding: 20px 0;
+  border-radius: 0 0 15px 15px;
+  box-sizing: border-box;
+}
+
+header .logo img {
+  height: 50px;
+  border-radius: 10px;
+}
+
+header nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+header nav a {
+  color: #ffffff;
+  margin: 10px 0;
+  text-decoration: none;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #54defe;
+}
+
+header nav a:hover {
+  background-color: #49c6e5;
+  color: #ffffff;
+}
+
+.hero {
+  background-color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hero .hero-text {
+  margin-bottom: 20px;
+}
+
+.hero .hero-text h1 {
+  color: #49c6e5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero .hero-text p {
+  color: #000000;
+}
+
+.hero .profile-picture img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.biography {
+  background-color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.biography .bio-text h2 {
+  color: #49c6e5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.biography .avatar img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 40px 0;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: #49c6e5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-form form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #49c6e5;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #54defe;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.footer {
+  background-color: #49c6e5;
+  padding: 20px 0;
+  border-radius: 0 0 15px 15px;
+  box-sizing: border-box;
+}
