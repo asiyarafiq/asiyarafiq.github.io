@@ -1,7 +1,6 @@
 # Asiya Begum - Portfolio Task
 
 ​asiyarafiq.github.io
-
 [https://github.com/asiyarafiq](link_to_your_site)
 ​
 
@@ -16,7 +15,7 @@ My portfolio site showcases a clean and professional design, with a focus on sim
 - [x] Functional Contact Form
 - [x] "Projects" section
 - [x] Links to external sites, e.g. GitHub and LinkedIn.
-      ​
+  ​
 
 ### Technical
 
