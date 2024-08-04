@@ -1,7 +1,7 @@
 # Asiya Begum - Portfolio Task
 
 ​asiyarafiq.github.io
-[https://github.com/asiyarafiq](link_to_your_site)
+[https://asiyarafiq.github.io/](link_to_your_site)
 ​
 
 ## Project Requirements
@@ -15,7 +15,7 @@ My portfolio site showcases a clean and professional design, with a focus on sim
 - [x] Functional Contact Form
 - [x] "Projects" section
 - [x] Links to external sites, e.g. GitHub and LinkedIn.
-  ​
+      ​
 
 ### Technical
 
@@ -46,10 +46,10 @@ I did not include any optional features such as different styles for states or J
 
 #### image_title_goes_here
 
-![laptop hero]("C:\Users\61469\shecodes\html-css\asiyarafiq.github.io\.git\laptop hero.png")
+![laptop hero]("laptop hero.png")
 
-![mobile hero]("C:\Users\61469\shecodes\html-css\asiyarafiq.github.io\.git\mobile hero.png")
+![mobile hero]("mobile hero.png")
 
-![projects page desktop]("C:\Users\61469\shecodes\html-css\asiyarafiq.github.io\.git\projects page desktop .png")
+![projects page desktop]("projects page desktop.png")
 
-![project page mobile view]("C:\Users\61469\shecodes\html-css\asiyarafiq.github.io\.git\project page mobile view.png")
+![project page mobile view]("project page mobile view.png")
